@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @RequestMapping("/hello123")
+    @RequestMapping("/hello")
     public String hello123(){
         return "hello world!";
     }
